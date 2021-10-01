@@ -27,11 +27,19 @@
       </select>
       </div>
 
-      <label for="lang"> Favorite Language (choose one) </label>
+      <div> Favorite Language (choose one) </div>
       <div>
-        <input type="radio" name="lang" value="HTML"> HTML
-        <input type="radio" name="lang" value="CSS"> CSS
-        <input type="radio" name="lang" value="JS"> Javascript
+        <label for="HTML">
+          <input id="HTML" type="radio" name="lang" value="HTML"> HTML
+        </label>
+
+        <label for="CSS">
+          <input id ="CSS" type="radio" name="lang" value="CSS"> CSS
+        </label>
+
+        <label for="JS">
+          <input id="JS" type="radio" name="lang" value="JS"> Javscript
+        </label>
       </div>
 
       <label for="signup"> Would you like to sign up for more information? </label>
@@ -44,7 +52,7 @@
         <textarea name="textbox" id="comments" cols="30" rows="10"> </textarea>
       </div>
       <div>
-        <button> Submit </button>
+        <input type="submit">
       </div>
       </form>
 
