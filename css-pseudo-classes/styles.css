@@ -14,7 +14,7 @@ th {
   background-color: black;
 }
 
-.grey {
+tr:nth-child(odd) {
   background-color: lightgrey;
   color: black;
 }
