@@ -33,7 +33,7 @@ var orderHistory = [
     item: 'GameCube Controller Adapter',
     author: '',
     returnWindow: 'Closed on Aug 5, 2020',
-    refundAmount: '15.98'
+    refundAmount: '$15.98'
   },
 
   {
@@ -49,3 +49,5 @@ var orderHistory = [
   }
 
 ];
+
+console.log(orderHistory);
