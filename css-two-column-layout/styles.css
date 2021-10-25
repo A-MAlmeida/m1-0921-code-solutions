@@ -1,19 +1,17 @@
 .header {
+  max-width: 800px;
   text-align: center;
   font-family: 'Karla', sans-serif;
   font-style: normal;
   font-weight: 400;
   padding-top: 30px;
-  max-width: 100%;
   src: url(https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2) format('woff2');
   unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
 }
 
-.column {
+.half-column {
+  max-width: calc(100% / 2);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
 }
 
 img {
@@ -21,12 +19,17 @@ img {
 }
 
 .half-row-img {
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-basis: 30%;
-  padding: 10px;
+  padding: 75px;
 }
 
 .half-row-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 12px;
   font-family: 'Karla', sans-serif;
   font-style: normal;
