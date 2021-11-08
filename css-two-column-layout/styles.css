@@ -1,5 +1,5 @@
 .header {
-  max-width: 800px;
+  width: 800px;
   text-align: center;
   font-family: 'Karla', sans-serif;
   font-style: normal;
@@ -9,13 +9,13 @@
   unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
 }
 
-.half-column {
-  max-width: calc(100% / 2);
-  display: flex;
+.container {
+  width: 800px;
 }
 
-img {
-  max-width: 100%;
+.half-column {
+  width: calc(100% / 2);
+  display: flex;
 }
 
 .half-row-img {
