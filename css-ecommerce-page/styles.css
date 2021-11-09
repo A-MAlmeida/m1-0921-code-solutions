@@ -1,0 +1,50 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fith {
+  width: calc(100% / 5);
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight {
+  background-color: #ffddd2;
+}
+
+.grey-text {
+  color: lightgray;
+  padding: 2px;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
+
+p {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 20px;
+}
