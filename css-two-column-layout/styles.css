@@ -11,6 +11,7 @@
 
 .container {
   width: 800px;
+  height: 500px;
 }
 
 .half-column {
@@ -28,9 +29,7 @@
 
 .half-row-text {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Karla', sans-serif;
   font-style: normal;
   font-weight: 400;
