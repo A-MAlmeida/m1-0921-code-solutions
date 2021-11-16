@@ -1,32 +1,35 @@
-body {
-  margin: 0;
-}
-
 .container {
   background-color: black;
-}
-
-.container-on {
-  background-color: #fefae0;
 }
 
 .bulb-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 800px;
   height: 800px;
 }
 
-.light-bulb.on {
-  background-color: #fff3b0;
-  box-shadow: 10px 5px 5px black;
-}
-
-button {
+.light-bulb {
   background-color: darkgrey;
   border-radius: 50%;
-  padding: 32px, 16px;
+  max-width: 100%;
   width: 200px;
   height: 200px;
+  transition: background-color 1s;
+}
+
+.container-on {
+  background-color: #fefae0;
+  transition: background-color 1s;
+}
+
+.light-bulb-on {
+  background-color: #f8ed74;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s;
+  width: 800px;
+  height: 800px;
 }
