@@ -4,6 +4,7 @@ var $lightSwitch = document.querySelector('.light-bulb');
 
 var clickCount = 1;
 
+
 $lightSwitch.addEventListener('click', function () {
 
   clickCount++;
@@ -12,9 +13,8 @@ $lightSwitch.addEventListener('click', function () {
 
     $background.className = 'container-on';
     $lightSwitch.className = 'light-bulb-on';
-  } else {
+    } else {
     $background.className = 'container';
     $lightSwitch.className = 'light-bulb';
-  }
 
 });
