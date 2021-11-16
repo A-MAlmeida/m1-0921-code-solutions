@@ -14,6 +14,7 @@
   margin-right: auto;
   text-align: center;
   color: white;
+
 }
 
 .column-one-third {
@@ -22,6 +23,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
 }
 
 .row {
@@ -34,8 +40,6 @@
 
 .picture {
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
   max-width: 100%;
@@ -60,6 +64,12 @@ p {
   font-weight: 100;
   src: url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
   unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+  align-items: center;
+  background-color: white;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
 }
 
 img {
