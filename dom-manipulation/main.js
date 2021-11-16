@@ -4,6 +4,10 @@ var $hotButton = document.querySelector('.hot-button');
 
 var $clickCount = document.querySelector('.click-count');
 
+console.log('hot-button value: ', $hotButton);
+
+console.log('click-count value: ', $clickCount);
+
 $hotButton.addEventListener('click', function () {
 
   clickCount++;

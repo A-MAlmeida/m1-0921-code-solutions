@@ -1,0 +1,39 @@
+.open-button {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: #5851da;
+  color: white;
+  padding: 10px, 24px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.modal-content {
+  display: none;
+  position: absolute;
+  background-color: #fefefe;
+  left: 40%;
+  top: 40%;
+  border-radius: 50%;
+}
+
+.open-modal {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  background-color: #fefefe;
+}
+
+.close {
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding: 14px, 24px;
+  border-radius: 4px;
+  background-color: #e56b6f;
+  top: 100px;
+}
