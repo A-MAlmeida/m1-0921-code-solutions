@@ -1,25 +1,49 @@
-/*
 
-var $container = document.querySelector('.tab-container');
+var $tabContainer = document.querySelector('.tab-container');
 
-var $tab = document.querySelector('.tab');
+var $tabNodes = $tabContainer.querySelectorAll('.tab');
 
-var $tabNodes = $tab.childNodes;
+/* TEST WITH
 
-console.log($tabNodes);
+console.log('Value of .tab node list: ', $tabNodes); */
 
-var $view = document.querySelector('.view');
+var $viewContainer = document.querySelector('.view-container');
 
-var $viewNodes = $view.childNodes;
+var $viewNodes = $viewContainer.querySelectorAll('.view ');
 
-console.log($viewNodes);
+/* TEST WITH
 
-$container.addEventListener('click', function (event) {
-  if (event.target.tagName === 'tab') {
-    for(var i = 0; i < $tab.Nodes.length; i++) {
+console.log('Value of .view node list: ', $viewNodes); */
 
+$tabContainer.addEventListener('click', function (event) {
+
+  /* TEST WITH
+
+  console.log('test: ', event.target) */
+
+  if (event.target.matches('.tab')) {
+
+    for (var i = 0; i < $tabNodes.length; i++) {
+      if ($tabNodes[i] === event.target) {
+        $tabNodes[i].className = 'tab active';
+      } else {
+        $tabNodes[i].className = 'tab';
+      }
+    }
+
+    var attribute = event.target.getAttribute('data-view');
+
+    /* TEST WITH
+
+    console.log('date-view value: ', attribute); */
+
+    for (var x = 0; x < $viewNodes.length; x++) {
+      if ($viewNodes[x].getAttribute('data-view') === attribute) {
+        $viewNodes[x].className = 'view';
+      } else {
+        $viewNodes[x].className = 'hidden';
+      }
     }
   }
-});
 
-*/
+});
