@@ -19,6 +19,20 @@ var books = [
   }
 ];
 
-console.log('books array value : ', books, 'typeof books: ', typeof books);
+console.log('books array value : ', books);
+console.log('typeof books: ', typeof books);
 
-console.log('JSON books: ', JSON.stringify(books), 'typeof books: ', typeof books);
+var booksJSON = JSON.stringify(books);
+
+console.log('value of booksJSON: ', booksJSON);
+console.log('typeof booksJSON: ', typeof booksJSON);
+
+var studentJSON = '{"id": 1, "name": "Andrew Almeida"}';
+
+console.log('value of studentJSON: ', studentJSON);
+console.log('typeof studentJSON: ', typeof studentJSON);
+
+var student = JSON.parse(studentJSON);
+
+console.log('value of student: ', student);
+console.log('typeof student: ', typeof student);
